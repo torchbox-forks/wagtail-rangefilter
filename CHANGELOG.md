@@ -7,6 +7,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+Wagtail 7.4 maintenance
+
+- Add tox testing for Wagtail 7.3 and Wagtail 7.4 LTS
+- Add tox testing for Django 6.0
+- Drop tests for Wagtail 6.3 as the new previous LTS is now Wagtail 7.0
+- Drop tests for Django 5.1 as it has reached EOL
+- Bump testing dependency `wagtail-modeladmin` to `~=2.3`
+- Bump production dependency `django-admin-rangefilter` to `>=0.13`
+- Remove deprecated `default_app_config` from package and tests (removed in Django 5.0)
+- Remove deprecated `USE_L10N` setting from test settings (removed in Django 5.0)
+- Remove residual Python 2 `str()` wrapper around dynamic form class name
+- Bump `actions/checkout` to v5 in CI workflow
+
 Wagtail 7.2 maintenance
 
 - Add tox testing for Wagtail 7.2

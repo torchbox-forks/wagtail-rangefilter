@@ -15,9 +15,7 @@ class WagtailDateRangeMixin:
 
     def _get_form_class(self: BaseDateRangeFilter):
         fields = self._get_form_fields()
-        form_class = type(
-            str("DateRangeForm"), (forms.BaseForm,), {"base_fields": fields}
-        )
+        form_class = type("DateRangeForm", (forms.BaseForm,), {"base_fields": fields})
         return form_class
 
 
