@@ -12,7 +12,7 @@ Wagtail 7.4 maintenance
 - Add tox testing for Wagtail 7.3 and Wagtail 7.4 LTS
 - Add tox testing for Django 6.0
 - Drop tests for Wagtail 6.3 as the new previous LTS is now Wagtail 7.0
-- Drop tests for Django 5.1 as it has reached EOL
+- Drop tests for Django 4.2 and 5.1 as they have reached EOL
 - Bump testing dependency `wagtail-modeladmin` to `~=2.3`
 - Bump production dependency `django-admin-rangefilter` to `>=0.13`
 - Remove deprecated `default_app_config` from package and tests (removed in Django 5.0)
